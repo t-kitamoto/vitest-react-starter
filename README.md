@@ -47,12 +47,12 @@ export default defineConfig({
   plugins: [react()],
   test: {
     globals: true,
-    environment: 'jsdom',
-    setupFiles: './src/vitest.setup.ts',
-  },
-　coverage: {
-    provider: 'v8',              
-    reporter: ['text', 'html'],
+    environment: "jsdom",
+    setupFiles: "./src/vitest.setup.ts",
+    coverage: {
+      provider: "v8",
+      reporter: ["text", "html"],
+    },
   },
 });
 ```
