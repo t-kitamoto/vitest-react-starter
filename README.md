@@ -56,7 +56,7 @@ export default defineConfig({
   },
 });
 ```
-- import { defineConfig } from 'vite/config' → import { defineConfig } from 'vitest/config';
+- import { defineConfig } from 'vite' → import { defineConfig } from 'vitest/config';
 
 <br/>
   
